@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+
+    includeBuild('gradle/plugins')
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+rootProject.name = "LibraryProyect"
+include("app")
+include("Authors")
+include("Books")
+include("Users")
+include("Library")
+include("NotFound")

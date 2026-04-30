@@ -1,0 +1,10 @@
+plugins {
+    id 'plugin-personal-librerias'
+}
+
+dependencies {
+    implementation project(':Books')
+    implementation project(':Authors')
+    implementation project(':Users')
+    implementation project(':NotFound')
+}
