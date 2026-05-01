@@ -8,4 +8,4 @@ RUN chmod +x gradlew
 
 RUN ./gradlew :app:build
 
-CMD ["./gradlew", ":app:build"]
+CMD ["./gradlew", ":app:run"]
