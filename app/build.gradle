@@ -6,6 +6,14 @@ application {
     mainClass.set('com.management.context.Context')
 }
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.management.context.Context'
+        )
+    }
+}
+
 dependencies {
     implementation project(':Authors')
     implementation project(':Books')
