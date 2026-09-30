@@ -1,4 +1,0 @@
-plugins{
-    id 'plugin-personal-java-core'
-    id 'java-library'
-}
